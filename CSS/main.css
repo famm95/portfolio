@@ -1,3 +1,6 @@
 img.me {
 max-width:100%;
 }
+.header {
+border: solid red 1px;
+}
