@@ -1,13 +1,23 @@
 img.me,
-img.type {
+img.type,
+img.shirt {
 max-width:100%;
 }
 .header {
 border: solid red 1px;
+}
+.main-nav li {
+    list-style-type: none;
 }
 a {
     text-decoration: none;
     background: #000080;
     color:white;
     display:block;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color:purple;
 }
