@@ -5,6 +5,10 @@ img.facebook,
 img.insta {
 max-width:100%;
 }
+img.facebook,
+img.insta {
+    float:right;
+}
 .header-container {
 border: solid red 1px;
 }
