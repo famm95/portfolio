@@ -3,11 +3,12 @@ img.type,
 img.shirt {
 max-width:100%;
 }
-.header {
+.container {
 border: solid red 1px;
 }
 .main-nav li {
     list-style-type: none;
+    display: inline-block;
 }
 a {
     text-decoration: none;
