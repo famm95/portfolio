@@ -5,12 +5,12 @@ img.facebook,
 img.insta {
 max-width:100%;
 }
-.container {
+.header-container {
 border: solid red 1px;
 }
 .main-nav li {
     list-style-type: none;
-    display: inline-block;
+    display: inline;
 }
 a {
     text-decoration: none;
