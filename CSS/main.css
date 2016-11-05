@@ -8,10 +8,10 @@ max-width:100%;
 
 @font-face {
     font-family: 'Cheers-Regular';
-    src: url("Cheers-Regular.woff") format('woff');
-    src: url("Cheers-Regular") format('svg');
-    src: url("Cheers-Regular") format('ttf');
-    src: url("Cheers-Regular.eot") format('eot');
+    src: url("Fonts/Cheers-Regular.woff") format('woff');
+    src: url("Fonts/Cheers-Regular.svg") format('svg');
+    src: url("Fonts/Cheers-Regular.ttf") format('ttf');
+    src: url("Fonts/Cheers-Regular.eot") format('eot');
 }
 h1 {
     font-family: 'Cheers-Regular', cursive;
