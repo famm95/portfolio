@@ -1,3 +1,7 @@
+:root {
+    background-color: aliceblue;
+}
+
 img.me,
 img.winter,
 img.shirt,
@@ -6,33 +10,22 @@ img.insta {
 max-width:100%;
 }
 
-@font-face {
-    font-family: 'Cheers-Regular';
-    src: url("Fonts/Cheers-Regular.woff") format('woff');
-    src: url("Fonts/Cheers-Regular.svg") format('svg');
-    src: url("Fonts/Cheers-Regular.ttf") format('ttf');
-    src: url("Fonts/Cheers-Regular.eot") format('eot');
-}
-h1 {
-    font-family: 'Cheers-Regular', cursive;
-}
 
 
-.main-nav {
+
+.main-nav li {
     list-style-type: none;
-    display: inline;
-}
-a {
     text-decoration: none;
-    background: #000080;
-    color:white;
-    display:block;
+    
 }
+
 a:hover {
-    text-decoration: underline;
+    background-color: cadetblue;
+    color: white;
+    
 }
 a:visited {
-    color:purple;
+    color:darkslategray;
 }
 
 
@@ -41,6 +34,13 @@ a:visited {
 
 
 @media (min-width 600px) {
+    
+    :root {background-color: teal;}
+    .container {
+        margin: 0 auto;
+        width: 60%;
+        background-color: aliceblue;
+    }
     
     
     
