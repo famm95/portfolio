@@ -6,11 +6,19 @@ img.insta {
 max-width:100%;
 }
 
-.header-container {
-border: solid red 1px;
-
+@font-face {
+    font-family: 'Cheers-Regular';
+    src: url("Cheers-Regular.woff") format('woff');
+    src: url("Cheers-Regular") format('svg');
+    src: url("Cheers-Regular") format('ttf');
+    src: url("Cheers-Regular.eot") format('eot');
 }
-.main-nav li {
+h1 {
+    font-family: 'Cheers-Regular', cursive;
+}
+
+
+.main-nav {
     list-style-type: none;
     display: inline;
 }
