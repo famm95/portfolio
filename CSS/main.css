@@ -10,14 +10,13 @@ img.insta {
 max-width:100%;
 }
 
-
-
-
-.main-nav li {
-    list-style-type: none;
+a:link {
     text-decoration: none;
-    
 }
+
+
+
+
 
 a:hover {
     background-color: cadetblue;
