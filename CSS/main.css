@@ -2,13 +2,52 @@
     background-color: aliceblue;
 }
 
+@font-face {
+    font-family: '../Fonts/LPSerif-Inline';
+    src: url('../Fonts/LPSerif-Inline.eot') format('eot'),
+        url('../Fonts/LPSerif-Inline.svg') format('svg'),
+        url('../Fonts/LPSerif-Inline.ttf') format('ttf'),
+        url('../Fonts/LPSerif-Inline.woff') format('woff');
+}
 
+@font-face {
+    font-family: '../Fonts/LPSans-Regular';
+    src: url('../Fonts/LPSans-Regular.eot') format('eot'),
+        url('../Fonts/LPSans-Regular.svg') format('svg'),
+        url('../Fonts/LPSans-Regular.ttf') format('ttf'),
+        url('../Fonts/LPSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: '../Fonts/LPSerif-Regular';
+    src: url('../Fonts/LPSerif-Regular.eot') format('eot'),
+        url('../Fonts/LPSerif-Regular.svg') format('svg'),
+        url('../Fonts/LPSerif-Regular.ttf') format('ttf'),
+        url('../Fonts/LPSerif-Regular.woff') format('woff');
+}
+
+
+h1,
+.my-name {
+    font-family: 'LPSerif-Inline', serif;
+    
+}
+
+p {
+    font-family: 'LPSans-Regular', sans-serif;
+}
+
+h3,
+h2 {
+    font-family: 'LPSerif-Regular', serif;
+}
 
 img.me,
 img.winter,
 img.shirt,
 img.facebook,
-img.insta {
+img.insta
+img.poster {
 max-width:100%;
 }
 
@@ -51,3 +90,6 @@ a:visited {
     
     
 }
+
+
+
