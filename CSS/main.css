@@ -36,6 +36,7 @@ h1,
 h1,
 h2 {
     text-align: center;
+    
 }
 
 p {
@@ -59,6 +60,10 @@ max-width:100%;
 
 a:link {
     text-decoration: none;
+}
+
+a:active {
+    color: teal;
 }
 
 
