@@ -54,6 +54,22 @@ h1 {
     top: -50px;
 }
 
+.P1,
+.Home {
+    position: relative;
+    bottom: -5px
+}
+
+.P2 {
+    position: relative;
+    bottom: 15px;
+}
+
+.P3 {
+    position: relative;
+    bottom: 35px;
+}
+
 img.me,
 img.winter,
 img.shirt,
@@ -84,8 +100,9 @@ a:active {
 
 
 
-a:hover {
-   
+a:hover:not(footer) {
+   background-color: cadetblue;
+    color:aliceblue;
     
 }
 a:visited {
@@ -106,10 +123,7 @@ a:visited {
         background-color: aliceblue;
     }
     
-    h1,
-    h2 {
-    text-align: center;
-    }
+    
 
     
     
