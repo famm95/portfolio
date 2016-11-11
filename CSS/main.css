@@ -45,6 +45,15 @@ h2 {
     color: teal;
 }
 
+.header-container {
+    position: relative;
+}
+
+h1,
+h2 {
+    position: absolute;
+}
+
 img.me,
 img.winter,
 img.shirt,
@@ -60,7 +69,7 @@ img.shirt,
 img.poster {
     border: solid .5px darkslategray;
     padding: 3px;
-    margin
+    
 }
 
 a:link {
