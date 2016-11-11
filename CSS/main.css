@@ -63,9 +63,14 @@ h2 {
     font-size: 24pt;
 }
 
+h3 {
+    font-size: 16pt;
+}
+
 .bio,
-.my-name {
-    font-size: 11.5pt;
+.my-name,
+.description {
+    font-size: 12pt;
 }
 
 /*text-alignment*/
