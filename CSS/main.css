@@ -32,7 +32,7 @@
 
 h1,
 .my-name {
-    font-family: 'LPSerif-Inline', serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 p {
@@ -81,6 +81,10 @@ h2 {
 }
 
 /*margins*/
+
+body {
+    margin-right: 10px;
+}
 
 .P1,
 .P2,
