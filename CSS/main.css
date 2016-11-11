@@ -49,9 +49,9 @@ h2 {
     position: relative;
 }
 
-h1,
-h2 {
+h1 {
     position: absolute;
+    top: -50px;
 }
 
 img.me,
