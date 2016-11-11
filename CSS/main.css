@@ -2,6 +2,8 @@
     background-color: aliceblue;
 }
 
+/*font-face*/
+
 @font-face {
     font-family: '../Fonts/LPSerif-Inline';
     src: url('../Fonts/LPSerif-Inline.eot') format('eot'),
@@ -26,14 +28,12 @@
         url('../Fonts/LPSerif-Regular.woff') format('woff');
 }
 
+/*font family*/
 
 h1,
 .my-name {
     font-family: 'LPSerif-Inline', serif;
-    color: teal;
 }
-
-
 
 p {
     font-family: 'LPSans-Regular', sans-serif;
@@ -42,8 +42,39 @@ p {
 h3,
 h2 {
     font-family: 'LPSerif-Regular', serif;
+}
+
+/*font-color*/
+
+h1,
+h2,
+h3 {
     color: teal;
 }
+
+/*font-size*/
+
+h1 {
+    font-size: 36pt;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+.bio,
+.my-name {
+    font-size: 11.5pt;
+}
+
+/*text-alignment*/
+
+h1,
+h2 {
+    text-align: center;
+}
+
+/*positioning*/
 
 .header-container {
     position: relative;
@@ -57,18 +88,20 @@ h1 {
 .P1,
 .Home {
     position: relative;
-    bottom: -5px
+    bottom: -40px
 }
 
 .P2 {
     position: relative;
-    bottom: 15px;
+    bottom: -15px;
 }
 
 .P3 {
     position: relative;
-    bottom: 35px;
+    bottom: 10px;
 }
+
+/*images*/
 
 img.me,
 img.winter,
@@ -88,6 +121,8 @@ img.poster {
     
 }
 
+/*link-properties*/
+
 a:link {
     text-decoration: none;
 }
@@ -95,10 +130,6 @@ a:link {
 a:active {
     color: teal;
 }
-
-
-
-
 
 a:hover:not(footer) {
    background-color: cadetblue;
