@@ -80,32 +80,24 @@ h2 {
     text-align: center;
 }
 
-/*positioning*/
-
-.header-container {
-    position: relative;
-}
-
-h1 {
-    position: absolute;
-    top: -50px;
-}
+/*margins*/
 
 .P1,
-.Home {
-    position: relative;
-    bottom: -40px
-}
-
-.P2 {
-    position: relative;
-    bottom: -15px;
+.P2,
+.Home{
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .P3 {
-    position: relative;
-    bottom: 10px;
-} 
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px
+}
 
 /*images*/
 
