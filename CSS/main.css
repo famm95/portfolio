@@ -49,9 +49,18 @@ img.me,
 img.winter,
 img.shirt,
 img.facebook,
-img.insta
+img.insta,
 img.poster {
 max-width:100%;
+}
+
+img.me,
+img.winter,
+img.shirt,
+img.poster {
+    border: solid .5px darkslategray;
+    padding: 3px;
+    margin
 }
 
 a:link {
