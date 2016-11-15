@@ -33,15 +33,19 @@
 h1,
 .my-name {
     font-family: 'Dancing Script', cursive;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 p {
-    font-family: 'LPSans-Regular', sans-serif;
+    font-family: 'BenchNine:300', sans-serif;
 }
 
-h3,
 h2 {
-    font-family: 'LPSerif-Regular', serif;
+    font-family: 'BenchNine:700', sans-serif;
+}
+
+h3 {
+    font-family: 'BenchNine:400', sans-serif;
 }
 
 /*font-color*/
