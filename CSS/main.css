@@ -140,6 +140,7 @@ a:active {
 a:hover:not(footer) {
    background-color: cadetblue;
     color:aliceblue;
+    border-radius: 15px;
     
 }
 a:visited {
