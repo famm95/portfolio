@@ -153,17 +153,14 @@ a:visited {
 
 @media (min-width 600px) {
     
-    :root {background-color: teal;}
-    .container {
-        margin: 0 auto;
-        width: 60%;
-        background-color: aliceblue;
+    img.me,
+    img.winter,
+    img.shirt,
+    img.poster {
+        width: 40%;
     }
     
-    html {
-        color: red;
-    }  
-
+    
     
     
     
