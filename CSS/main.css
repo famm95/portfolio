@@ -44,7 +44,8 @@ h2 {
     font-family: 'BenchNine:700', sans-serif;
 }
 
-h3 {
+h3,
+h4 {
     font-family: 'BenchNine:400', sans-serif;
 }
 
@@ -107,13 +108,21 @@ h1 {
     margin-bottom: 0px
 }
 
+h4 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+p.con {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 /*images*/
 
 img.me,
 img.winter,
 img.shirt,
-img.facebook,
-img.insta,
 img.poster {
 max-width:100%;
 }
