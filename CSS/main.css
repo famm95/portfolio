@@ -36,7 +36,8 @@ h1,
     text-shadow: 4px 4px 4px #aaa;
 }
 
-p {
+p,
+a {
     font-family: 'BenchNine:300', sans-serif;
 }
 
@@ -49,13 +50,17 @@ h4 {
     font-family: 'BenchNine:400', sans-serif;
 }
 
-/*font-colors*/
+/*colors*/
 
 h1,
 h2,
 h3,
 .my-name {
     color: teal;
+}
+
+footer {
+    background-color: teal;
 }
 
 /*font-size*/
@@ -78,12 +83,14 @@ h3 {
     font-size: 12pt;
 }
 
-/*text-alignment*/
+/*text-alignment/positioning/floating*/
 
 h1,
 h2 {
     text-align: center;
 }
+
+
 
 /*margins*/
 
@@ -125,15 +132,8 @@ img.winter,
 img.shirt,
 img.poster {
 max-width:100%;
-}
-
-img.me,
-img.winter,
-img.shirt,
-img.poster {
-    border: solid .5px darkslategray;
-    padding: 3px;
-    
+border: solid .5px darkslategray;
+padding: 3px;
 }
 
 /*link-properties*/
@@ -146,7 +146,7 @@ a:active {
     color: teal;
 }
 
-a:hover:not(footer) {
+a:hover {
    background-color: cadetblue;
     color:aliceblue;
     border-radius: 15px;
@@ -162,7 +162,10 @@ a:visited {
 
 
 @media (min-width 600px) {
-    
+    .container {
+        width: 60%;
+        margin: 0 auto;
+    }
     
     
     
