@@ -136,6 +136,10 @@ border: solid .5px darkslategray;
 padding: 3px;
 }
 
+img.me:hover {
+    opacity: .5;
+}
+
 /*link-properties*/
 
 a:link {
