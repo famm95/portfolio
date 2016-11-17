@@ -92,6 +92,8 @@ h2 {
 
 
 
+
+
 /*margins*/
 
 body {
@@ -170,16 +172,16 @@ a:visited {
 
 
 @media screen and (min-width: 600px) {
-   /* img {
+    .container {
         width: 60%;
         margin: 0 auto;
-        border: 10px solid red;
-    }
-    */
+        display: flex;
+        flex-grow: 1;
+        }
     
-    h1 { 
-        border: 5px solid red;
-    }
+    
+    
+   
     
     
     
