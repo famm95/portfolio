@@ -60,7 +60,7 @@ h3,
 }
 
 footer {
-    background-color: teal;
+    background-color:;
 }
 
 /*font-size*/
@@ -147,6 +147,8 @@ a:link {
     text-decoration: none;
     color: teal;
 }
+
+
 
 a:active {
     
