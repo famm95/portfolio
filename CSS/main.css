@@ -145,10 +145,11 @@ img.me:hover {
 
 a:link {
     text-decoration: none;
+    color: teal;
 }
 
 a:active {
-    color: teal;
+    
 }
 
 a:hover {
@@ -166,13 +167,17 @@ a:visited {
 
 
 
-@media (min-width 600px) {
-    .container {
+@media screen and (min-width: 600px) {
+   /* img {
         width: 60%;
         margin: 0 auto;
-        border: solid red 1px;
+        border: 10px solid red;
     }
+    */
     
+    h1 { 
+        border: 5px solid red;
+    }
     
     
     
