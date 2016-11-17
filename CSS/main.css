@@ -138,6 +138,7 @@ padding: 3px;
 
 img.me:hover {
     opacity: .5;
+    transition: .5s;
 }
 
 /*link-properties*/
