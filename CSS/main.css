@@ -178,10 +178,22 @@ footer {
 
 
 @media screen and (min-width: 600px) {
+    :root {
+        background-color: teal;
+    }
+    
     .container {
         max-width: 90%;
-        margin: 0 auto;
+        margin: auto;
+        background-color: aliceblue;
         }
+    h1 {
+       color: aliceblue;
+    }
+    
+    a:link {
+        color: aliceblue;
+    }
     
     img.me {
         width: 55%;
@@ -191,7 +203,18 @@ footer {
         width: 40%;
         float: right;
         font-size: .75em;
-        line-height: 1.5;
+        line-height: 1.40;
+    }
+    
+    img.me,
+    img.winter,
+    img.poster {
+        padding: none;
+        border: none;
+    }
+    
+    footer {
+        background-color: cadetblue;
     }
     
     
