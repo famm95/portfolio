@@ -240,18 +240,10 @@ a:visited {
         float: right;
     }
     
-    img.shirt-1 {
-        width: 30%;
-    }
-    
-    img.shirt-2 {
-        width: 30%;
-        
-    }
-    
+    img.shirt-1,
+    img.shirt-2,
     img.shirt-3 {
         width: 30%;
-        
     }
     
     img.poster {
