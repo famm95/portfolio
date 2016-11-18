@@ -148,15 +148,18 @@ footer {
 img.me,
 img.winter-1,
 img.winter-2,
-img.shirt,
-img.poster {
+img.shirt-1,
+img.shirt-2,
+img.shirt-3,
+img.poster,
+img {
 max-width:100%;
 border: solid .5px darkslategray;
 padding: 3px;
 }
 
-img.:hover {
-    opacity: .5;
+img:hover {
+    opacity: .7;
     transition: .5s;
 }
 
@@ -195,6 +198,11 @@ a:visited {
         max-width: 90%;
         margin: auto;
         background-color: aliceblue;
+        padding: 10px;
+    }
+    
+    .photo-container {
+        padding-left: 10px;
     }
     
     /**********colors************/
@@ -207,6 +215,10 @@ a:visited {
         color: aliceblue;
     }
     
+    .photo-container {
+        background-color: aliceblue;
+    }
+    
     /*******images************/
     
     img.me {
@@ -216,6 +228,9 @@ a:visited {
     img.me,
     img.winter-1,
     img.winter-2,
+    img.shirt-1,
+    img.shirt-2,
+    img.shirt-3,
     img.poster {
         padding: none;
         border: none;
@@ -230,6 +245,28 @@ a:visited {
         float: right;
     }
     
+    img.shirt-1 {
+        width: 30%;
+    }
+    
+    img.shirt-2 {
+        width: 30%;
+        float: right;
+    }
+    
+    img.shirt-3 {
+        width: 30%;
+        float: right;
+    }
+    
+    img.poster {
+        width: 55%;
+    }
+    
+    img {
+        width: 30%;
+    }
+    
     /*********paragraphs**********/
     
     .bio {
@@ -237,15 +274,19 @@ a:visited {
         float: right;
         font-size: .75em;
         line-height: 1.40;
+        margin: 0;
     }
     
+    .description-3 {
+        width: 40%;
+        float: right;
+        font-size: .75em;
+        line-height: 1.38;
+    }
     
-    
-    
-    
-   
-    
-    
+    .description-2 {
+        font-size: .75em;
+    }
     
     
     
