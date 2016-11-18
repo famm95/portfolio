@@ -33,7 +33,6 @@
 h1,
 .my-name {
     font-family: 'Dancing Script', cursive;
-    text-shadow: 4px 4px 4px #aaa;
 }
 
 p,
@@ -61,6 +60,10 @@ h3,
 
 footer {
     background-color: cadetblue;
+}
+
+h1 {
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 /***************font-size****************/
