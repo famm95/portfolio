@@ -66,21 +66,21 @@ footer {
 /***************font-size****************/
 
 h1 {
-    font-size: 36pt;
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 22pt;
+    font-size: 1.8em;
 }
 
 h3 {
-    font-size: 16pt;
+    font-size: 1.3em;
 }
 
 .bio,
 .my-name,
 .description {
-    font-size: 12pt;
+    font-size: 1em;
 }
 
 /*************text-alignment/positioning/floating***************/
@@ -88,15 +88,6 @@ h3 {
 h1,
 h2 {
     text-align: center;
-}
-
-.col-1 {
-    width: 50%;
-}
-
-.col-2 {
-    width: 50%;
-    display: inline-block;
 }
 
 /****************margins*********************/
@@ -289,11 +280,22 @@ a:visited {
         font-size: .75em;
     }
     
+    /*********placement*******/
     
+    h1,
+    h2 {
+        display: inline-block;
+    }
     
+    h1 {
+        font-size: 2.3em;
+        padding-right: 7px
+    }
     
-    
-    
+    h2 {
+        font-size: 1em;
+        padding-right: 7px;
+    }
     
     
 }
