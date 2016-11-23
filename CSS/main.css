@@ -35,8 +35,13 @@ h1,
     font-family: 'Dancing Script', cursive;
 }
 
-p,
-a {
+p.bio,
+p.description,
+p.description-2,
+p.description-3,
+p.photo-description,
+a,
+p.con {
     font-family: 'BenchNine:300', sans-serif;
 }
 
@@ -80,9 +85,12 @@ h3 {
     font-size: 1.3em;
 }
 
-.bio,
+p.bio,
 .my-name,
-.description {
+p.description,
+p.description-2,
+p.description-3,
+p.photo-description{
     font-size: 1em;
 }
 
@@ -146,15 +154,39 @@ img.shirt-1,
 img.shirt-2,
 img.shirt-3,
 img.poster,
-img.p {
+img.p-one,
+img.p-two,
+img.p-three,
+img.p-four,
+img.p-five,
+img.p-six,
+img.p-seven,
+img.p-eight,
+img.p-nine,
+img.p-ten,
+img.p-eleven,
+img.p-twelve,
+img.p-thirteen,
+img.p-fourteen,
+img.p-fifteen,
+img.p-sixteen,
+img.p-seventeen,
+img.p-eighteen,
+img.p-nineteen,
+img.p-twenty,
+img.p-twentyone {
 max-width:100%;
-border: solid .5px darkslategray;
+
 padding: 3px;
 }
 
-img.p:hover {
-    opacity: .7;
-    transition: .5s;
+figure {
+    border: solid .5px darkslategray;
+    text-align: center;
+    width: 30%;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
 }
 
 /**************link-properties***************/
@@ -162,12 +194,6 @@ img.p:hover {
 a:link {
     text-decoration: none;
     color: teal;
-}
-
-
-
-a:active {
-    
 }
 
 a:hover {
@@ -214,6 +240,10 @@ a:visited {
         background-color: aliceblue;
     }
     
+    a.social:hover {
+        background-color: skyblue;
+    }
+    
     /*******images************/
     
     img.me {
@@ -228,15 +258,14 @@ a:visited {
     img.shirt-3,
     img.poster {
         padding: 3px;
-        border: none;
     }
     
-    img.winter-1 {
+    img.winter-1,
+    img.winter-2 {
         width: 45%
     }
     
     img.winter-2 {
-        width: 45%;
         float: right;
     }
     
@@ -250,7 +279,27 @@ a:visited {
         width: 55%;
     }
     
-    img {
+    img.p-one,
+    img.p-two,
+    img.p-three,
+    img.p-four,
+    img.p-five,
+    img.p-six,
+    img.p-seven,
+    img.p-eight,
+    img.p-nine,
+    img.p-ten,
+    img.p-eleven,
+    img.p-twelve,
+    img.p-thirteen,
+    img.p-fourteen,
+    img.p-fifteen,
+    img.p-sixteen,
+    img.p-seventeen,
+    img.p-eighteen,
+    img.p-nineteen,
+    img.p-twenty,
+    img.p-twentyone {
         width: 30%;
     }
     
@@ -291,6 +340,32 @@ a:visited {
         font-size: 1em;
         padding-right: 7px;
     }
+    
+    
+}
+
+@media screen and (min-width: 900px) {
+    
+    /*****positioning*****/
+    
+    
+    .main-nav {
+        display: inline;
+        float: right
+    }
+    
+    /*******margins-padding******/
+    
+    p.photo-description {
+        margin-right: 8px;
+    }
+    
+    h1 {
+        padding-right: 0px;
+    }
+    
+    
+    
     
     
 }
