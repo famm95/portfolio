@@ -1,120 +1,116 @@
 :root {
-    background-color: aliceblue;
+    background-color: #f0f8ff;
 }
-
-/******************font-face************/
-
-@font-face {
-    font-family: '../Fonts/LPSerif-Inline';
-    src: url('../Fonts/LPSerif-Inline.eot') format('eot'),
-        url('../Fonts/LPSerif-Inline.svg') format('svg'),
-        url('../Fonts/LPSerif-Inline.ttf') format('ttf'),
-        url('../Fonts/LPSerif-Inline.woff') format('woff');
-}
-
-@font-face {
-    font-family: '../Fonts/LPSans-Regular';
-    src: url('../Fonts/LPSans-Regular.eot') format('eot'),
-        url('../Fonts/LPSans-Regular.svg') format('svg'),
-        url('../Fonts/LPSans-Regular.ttf') format('ttf'),
-        url('../Fonts/LPSans-Regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: '../Fonts/LPSerif-Regular';
-    src: url('../Fonts/LPSerif-Regular.eot') format('eot'),
-        url('../Fonts/LPSerif-Regular.svg') format('svg'),
-        url('../Fonts/LPSerif-Regular.ttf') format('ttf'),
-        url('../Fonts/LPSerif-Regular.woff') format('woff');
-}
-
-/***************font families***************/
-
-h1,
-.my-name {
-    font-family: 'Dancing Script', cursive;
-}
-
-p.bio,
-p.description,
-p.description-2,
-p.description-3,
-p.photo-description,
-a,
-p.con {
-    font-family: 'BenchNine:300', sans-serif;
-}
-
-h2 {
-    font-family: 'BenchNine:700', sans-serif;
-}
-
-h3,
-h4 {
-    font-family: 'BenchNine:400', sans-serif;
-}
-
-/*************colors*************/
-
-h1,
-h2,
-h3,
-.my-name {
-    color: teal;
-}
-
-footer {
-    background-color: cadetblue;
-}
-
-h1 {
-    text-shadow: 4px 4px 4px #aaa;
-}
-
-/***************font-size****************/
-
-h1 {
-    font-size: 3em;
-}
-
-h2 {
-    font-size: 1.8em;
-}
-
-h3 {
-    font-size: 1.3em;
-}
-
-p.bio,
-.my-name,
-p.description,
-p.description-2,
-p.description-3,
-p.photo-description{
-    font-size: 1em;
-}
-
-/*************text-alignment/positioning/floating***************/
-
-h1,
-h2 {
-    text-align: center;
-}
-
-/****************margins*********************/
 
 body {
     margin-right: 10px;
 }
 
-.P1,
-.P2,
-.Home{
-    margin-top: 3px;
-    margin-bottom: 3px;
+/******H1***********/
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #008080;
+    text-shadow: 4px 4px 4px #c0c0c0;
+    font-size: 2.2584375225846em;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px
 }
 
-.P3 {
+/********H2*********/
+
+h2 {
+    font-family: 'BenchNine:700', sans-serif;
+    color: #008080;
+    font-size: 1.8402083517355998em;
+    text-align: center;
+}
+
+/**********H3***********/
+
+h3 {
+    font-family: 'BenchNine:400', sans-serif;
+    color: #008080;
+    font-size: 1.3383333467168em;
+}
+
+/*********H4********/
+
+h4 {
+    font-family: 'BenchNine:400', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+/************MY-NAME********/
+
+.my-name {
+    font-family: 'Dancing Script', cursive;
+    color: #008080;
+    font-size: 0.9619270929527em;
+}
+
+/**********BIO*********/
+
+.bio {
+    font-family: 'BenchNine:300', sans-serif;
+    font-size: 0.9619270929527em;
+}
+
+/*******DESCRIPTIONS*******/
+
+.description,
+.description-2,
+.description-3,
+.photo-description {
+    font-family: 'BenchNine:300', sans-serif;
+    font-size: 0.9619270929527em;
+}
+
+/*******FOOTER & FOOTER THINGS****/
+
+footer {
+    background-color: #5f9ea0;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.con {
+    font-family: 'BenchNine:300', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/********LINK STUFF*******/
+
+a {
+    font-family: 'BenchNine:300', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: #008080;
+}
+
+a:hover {
+   background-color: #5f9ea0;
+    color: #f0f8ff;
+    border-radius: 15px;  
+}
+
+a:visited {
+    color: #2f4f4f;
+}
+
+/*********NAV*********/
+
+.P1,
+.P2,
+.P3,
+.Home {
     margin-top: 3px;
     margin-bottom: 3px;
 }
@@ -124,28 +120,7 @@ body {
     margin-bottom: 15px;
 }
 
-h1 {
-    margin-top: 0px;
-    margin-bottom: 0px
-}
-
-h4 {
-    margin-top: 15px;
-    margin-bottom: 0px;
-}
-
-p.con {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-footer {
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-/**********************images*****************/
+/*********IMAGES*******/
 
 img.me,
 img.winter-1,
@@ -176,93 +151,102 @@ img.p-nineteen,
 img.p-twenty,
 img.p-twentyone {
 max-width:100%;
-
+border: solid .5px #2f4f4f;
 padding: 3px;
 }
 
-figure {
-    border: solid .5px darkslategray;
-    text-align: center;
-    width: 30%;
-    text-indent: 0;
-    margin: 0.5em;
-    padding: 0.5em;
-}
-
-/**************link-properties***************/
-
-a:link {
-    text-decoration: none;
-    color: teal;
-}
-
-a:hover {
-   background-color: cadetblue;
-    color:aliceblue;
-    border-radius: 15px;
-    
-}
-a:visited {
-    color:darkslategray;
-}
-
-/***************media*************/
+/***********MEDIA*********/
 
 @media screen and (min-width: 600px) {
-    
+   
     :root {
-        background-color: teal;
+        background-color: #008080;
+    }
+ 
+/***********H1***********/
+    
+    h1 {
+        color: #f0f8ff;
+        display: inline-block;
+        text-align: left;
+        font-size: 2.3em;
+        padding-right: 7px
     }
     
+/*********H2*********/
+    
+    h2 {
+        display: inline-block;
+        text-align: left;
+        font-size: 1em;
+        padding-right: 7px;
+    }
+    
+/*********H3*********/
+    
+    h3 {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+/*********BIO**********/
+    
+    .bio {
+        width: 55%;
+        float: right;
+        font-size: .95em;
+        line-height: 1.1;
+        margin: 0;
+    }
+    
+/********DESCRIPTIONS********/
+    
+    .description-2 {
+        font-size: .75em;
+    }
+    
+    .description-3 {
+        width: 55%;
+        float: right;
+        font-size: .85em;
+        line-height: 1.6;
+        margin-top: 0px;
+    }
+    
+/**********LINK STUFF*******/
+    
+    a:link {
+        color: #f0f8ff;
+    }
+    
+    a.social:hover {
+        background-color: #87ceeb;
+    }
+
+
+/*********CONTAINTERS********/
+    
     .container {
-        max-width: 90%;
-        margin: auto;
-        background-color: aliceblue;
+        background-color: #f0f8ff;
         padding: 10px;
         padding-bottom: 15px;
     }
     
     .photo-container {
+        padding-top: 5px;
         padding-left: 10px;
+        background-color: #f0f8ff;
     }
-    
-    /**********colors************/
-    
-    h1 {
-       color: aliceblue;
-    }
-    
-    a:link {
-        color: aliceblue;
-    }
-    
-    .photo-container {
-        background-color: aliceblue;
-    }
-    
-    a.social:hover {
-        background-color: skyblue;
-    }
-    
-    /*******images************/
+
+/*******IMAGES*********/
     
     img.me {
-        width: 55%;
-    }
-    
-    img.me,
-    img.winter-1,
-    img.winter-2,
-    img.shirt-1,
-    img.shirt-2,
-    img.shirt-3,
-    img.poster {
-        padding: 3px;
+        width: 40%;
     }
     
     img.winter-1,
     img.winter-2 {
-        width: 45%
+        width: 45%;
     }
     
     img.winter-2 {
@@ -275,8 +259,13 @@ a:visited {
         width: 30%;
     }
     
+    img.shirt-1,
+    img.shirt-2 {
+        margin-right: 2%;
+    }
+
     img.poster {
-        width: 55%;
+        width: 40%;
     }
     
     img.p-one,
@@ -301,74 +290,194 @@ a:visited {
     img.p-twenty,
     img.p-twentyone {
         width: 30%;
+        margin-right: 1%;
     }
-    
-    /*********paragraphs**********/
-    
-    .bio {
-        width: 40%;
-        float: right;
-        font-size: .75em;
-        line-height: 1.40;
-        margin: 0;
-    }
-    
-    .description-3 {
-        width: 40%;
-        float: right;
-        font-size: .75em;
-        line-height: 1.38;
-    }
-    
-    .description-2 {
-        font-size: .75em;
-    }
-    
-    /*********placement*******/
-    
-    h1,
-    h2 {
-        display: inline-block;
-    }
-    
-    h1 {
-        font-size: 2.3em;
-        padding-right: 7px
-    }
-    
-    h2 {
-        font-size: 1em;
-        padding-right: 7px;
-    }
-    
-    
 }
 
 @media screen and (min-width: 900px) {
     
-    /*****positioning*****/
+/*********H1**********/
     
+    h1 {
+        padding-right: 0px;
+        margin-bottom: 10px;
+    }
+    
+/********BIO******/ 
+    
+    .bio {
+        line-height: 2.3;
+        font-size: .85em;
+    }
+    
+/***********DESCRIPTIONS*******/
+    
+    .description-2 {
+        font-size: .85em;
+    }
+    
+    .description-3 {
+        font-size: .95em;
+        line-height: 2.5;
+        margin-bottom: 0px;
+    }
+    
+/**********NAV***********/
     
     .main-nav {
         display: inline;
         float: right
     }
     
-    /*******margins-padding******/
-    
     p.photo-description {
         margin-right: 8px;
     }
     
-    h1 {
-        padding-right: 0px;
+/*******IMAGES*********/
+    
+    img.shirt-1,
+    img.shirt-2 {
+        margin-right: 3%;
     }
     
-    
-    
-    
-    
+    img.p-one,
+    img.p-two,
+    img.p-three,
+    img.p-four,
+    img.p-five,
+    img.p-six,
+    img.p-seven,
+    img.p-eight,
+    img.p-nine,
+    img.p-ten,
+    img.p-eleven,
+    img.p-twelve,
+    img.p-thirteen,
+    img.p-fourteen,
+    img.p-fifteen,
+    img.p-sixteen,
+    img.p-seventeen,
+    img.p-eighteen,
+    img.p-nineteen,
+    img.p-twenty,
+    img.p-twentyone {
+        margin-right: 2.08%;
+    }
 }
 
+@media screen and (min-width: 1366px) {
+    
+/**********BIO*********/
+    
+    .bio {
+        width: 40%;
+        margin-right: 10%;
+    }
+    
+/***********DESCRIPTIONS**********/
+    
+    .description-2 {
+        font-size: .85em;
+    }
+    
+    .description-3 {
+        width: 40%;
+        margin-right: 10%;
+    }
+    
+/*********CONTAINERS**********/
+    
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
 
+/*******IMGAES********/
+    
+   img.me {
+        width: 30%;
+        margin-left: 10%;
+    }
+ 
+    img.winter-1 {
+        margin-left: 10%;
+        width: 35%
+    }
+    
+    img.winter-2 {
+        margin-right: 10%;
+        width: 35%;
+    }
+    
+    img.shirt-1,
+    img.shirt-2,
+    img.shirt-3 {
+        width: 25%;
+    }
+    
+    img.shirt-2,
+    img.shirt-3 {
+        margin-right: 6%;
+    }
+    
+    img.shirt-1 {
+        margin-left: 4%;
+        margin-right: 6%;
+    }
+    
+    img.poster {
+        width: 30%;
+        margin-left: 10%;
+    }
+    
+    img.p-one,
+    img.p-two,
+    img.p-three,
+    img.p-four,
+    img.p-five,
+    img.p-six,
+    img.p-seven,
+    img.p-eight,
+    img.p-nine,
+    img.p-ten,
+    img.p-eleven,
+    img.p-twelve,
+    img.p-thirteen,
+    img.p-fourteen,
+    img.p-fifteen,
+    img.p-sixteen,
+    img.p-seventeen,
+    img.p-eighteen,
+    img.p-nineteen,
+    img.p-twenty,
+    img.p-twentyone {
+        margin-right: 2.4%;
+        opacity: .5;
+    }
+    
+    img.p-one:hover,
+    img.p-two:hover,
+    img.p-three:hover,
+    img.p-four:hover,
+    img.p-five:hover,
+    img.p-six:hover,
+    img.p-seven:hover,
+    img.p-eight:hover,
+    img.p-nine:hover,
+    img.p-ten:hover,
+    img.p-eleven:hover,
+    img.p-twelve:hover,
+    img.p-thirteen:hover,
+    img.p-fourteen:hover,
+    img.p-fifteen:hover,
+    img.p-sixteen:hover,
+    img.p-seventeen:hover,
+    img.p-eighteen:hover,
+    img.p-nineteen:hover,
+    img.p-twenty:hover,
+    img.p-twentyone:hover {
+        opacity: 1;
+        transition: .3sec;
+    }
+}
 
