@@ -157,7 +157,7 @@ padding: 3px;
 
 /***********MEDIA*********/
 
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
    
     :root {
         background-color: #008080;
@@ -294,7 +294,7 @@ padding: 3px;
     }
 }
 
-@media screen and (min-width: 900px) {
+@media (min-width: 900px) {
     
 /*********H1**********/
     
@@ -365,7 +365,7 @@ padding: 3px;
     }
 }
 
-@media screen and (min-width: 1366px) {
+@media (min-width: 1366px) {
     
 /**********BIO*********/
     
